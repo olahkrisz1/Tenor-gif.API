@@ -1,0 +1,21 @@
+body {
+  background-color: gainsboro;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+#output {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap row;
+  gap: 5px;
+}
+
+img {
+  width: 300px;
+  padding: 3px;
+  max-height: 250px;
+}
