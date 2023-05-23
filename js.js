@@ -7,7 +7,7 @@ let searchValue = "Friday";
 
 function getGifs() {
   $.ajax({
-    url: `https://tenor.googleapis.com/v2/search?q=excited&key=AIzaSyBw1gOtUY8kExZBWn3Qxmn3zCVas2CCUqc&client_key=my_test_app&limit=8&q=${searchValue}`,
+    url: `https://tenor.googleapis.com/v2/search?&key=AIzaSyBw1gOtUY8kExZBWn3Qxmn3zCVas2CCUqc&client_key=my_test_app&limit=8&q=${searchValue}`,
     method: "GET",
     dataType: "json",
     success: function (response) {
